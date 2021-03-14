@@ -110,8 +110,8 @@ img {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--title-text-color);
 }
 
@@ -164,8 +164,8 @@ img {
 
 .mail-link,
 .tel-link {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
