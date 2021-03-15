@@ -53,8 +53,8 @@ img {
 
 
 .header {
-    padding-top: 25px;
-    padding-bottom: 24px;
+    /* padding-top: 25px;
+    padding-bottom: 24px; */
     border-bottom: 1px solid var(--back-team-color);
 }
 
@@ -146,8 +146,8 @@ img {
     color: var(--accent-color) ;
 }
 
-:current {
-    color: var(--accent-color)
+.current {
+    color: var(--accent-color);
 }
 
 
@@ -156,36 +156,59 @@ img {
 .contacts-list-item:not(:last-child) {
     margin-right: 50px;
 }
+
 .list-contact {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
-.mail-link,
-.tel-link {
-    padding-top: 32px;
-    padding-bottom: 32px;
+.auth-icon {
+    /* fill: var(--discription-text-color); */
+    margin-right: 10px;
+}
+
+.mail-link {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.15;
     letter-spacing: 0.02em;
-    color: #212121;
+    padding-top: 25px;
+    padding-bottom: 24px;
+    color: var(--discription-text-color);
+    fill: var(--discription-text-color);
+}
+
+.auth-icon:hover ,
+.auth-icon:focus {
+    fill: var(--accent-color);
 }
 
 .tel-link {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.15;
     letter-spacing: 0.02em;
+    padding-top: 25px;
+    padding-bottom: 24px;
     color: var(--discription-text-color);
+    fill: var(--discription-text-color);
 }
 
 .mail-link:hover,
-.mail-link:focus,
+.mail-link:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
 .tel-link:hover,
 .tel-link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* Hero section */
@@ -284,6 +307,11 @@ img {
 
 .features-item .title-f {
     margin-left: 30px;
+}
+
+.thumb-icon {
+    width: 70px;
+    height: 70px;
 }
 
 .title-features {
@@ -473,6 +501,7 @@ img {
     width: 170px;
     height: 90px;
     border: 1p solid var(--partner-icon);
+    box-sizing: border-box;
     border-radius: 4px;
 }
 
@@ -568,7 +597,7 @@ img {
     background-color: rgba(255, 255, 255, 0.1);
   }
   .footer-icons {
-    fill: var(--secondary-accent-color);
+    fill: var(--white-text-back-color);
   }
   .boxes {
       display: flex;
@@ -642,6 +671,10 @@ img {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
