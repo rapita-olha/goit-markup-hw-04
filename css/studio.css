@@ -501,7 +501,8 @@ img {
     fill: var(--partner-icon);
   
 }
-.partners-link:hover {
+.partners-link:hover,
+.partners-link:focus {
     border: 1px solid var(--accent-color);
 }
 
